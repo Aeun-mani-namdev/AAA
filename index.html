@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRIPLE A LEGACY | Style • Chai • Travel</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <a href="#home" class="logo">
+    <span>AAA</span>
+    <div>TRIPLE A <small>LEGACY</small></div>
+  </a>
+
+  <button class="menu-btn" id="menuBtn">☰</button>
+
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#about">Our Story</a>
+    <a href="#business">Businesses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="gold-text">A FAMILY VISION • THREE EXPERIENCES</p>
+    <h1>More Than A Name.<br><em>A Legacy.</em></h1>
+    <p>
+      Discover a world of premium fashion, comforting chai
+      and unforgettable journeys.
+    </p>
+    <a href="#business" class="btn">Explore Our World ↗</a>
+  </div>
+</section>
+
+<section class="about section" id="about">
+  <p class="gold-text">01 — OUR STORY</p>
+  <h2>Three Initials.<br><em>One Shared Dream.</em></h2>
+  <p>
+    TRIPLE A LEGACY is a family-inspired brand built on passion,
+    ambition and purpose. Our vision is to bring together fashion,
+    food and travel under one identity.
+  </p>
+  <div class="values">
+    <div><strong>01</strong><span>Family Values</span></div>
+    <div><strong>02</strong><span>Quality First</span></div>
+    <div><strong>03</strong><span>Built To Last</span></div>
+  </div>
+</section>
+
+<section class="business section" id="business">
+  <p class="gold-text">02 — OUR BUSINESSES</p>
+  <h2>Explore Our <em>World.</em></h2>
+  <p class="section-intro">
+    Three passions. One destination. Experience the world of Triple A Legacy.
+  </p>
+
+  <div class="cards">
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=900&q=85" alt="Premium fashion">
+      <div class="card-content">
+        <span>FASHION & LIFESTYLE</span>
+        <h3>Legacy <em>Clothing</em></h3>
+        <p>Premium oversized T-shirts, modern streetwear and timeless style.</p>
+        <a href="#contact" class="business-link" data-interest="Clothing">Explore Clothing →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=900&q=85" alt="Indian chai">
+      <div class="card-content">
+        <span>CHAI & CAFE</span>
+        <h3>Legacy <em>Chai House</em></h3>
+        <p>Fresh chai, delicious snacks and conversations worth remembering.</p>
+        <a href="#contact" class="business-link" data-interest="Chai Shop">Discover Chai →</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=85" alt="Beautiful travel destination">
+      <div class="card-content">
+        <span>TRAVEL & MOBILITY</span>
+        <h3>Legacy <em>Travels</em></h3>
+        <p>Car rentals, group journeys and holiday experiences made memorable.</p>
+        <a href="#contact" class="business-link" data-interest="Travel">Explore Travel →</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="quote">
+  <p class="gold-text">THE LEGACY PROMISE</p>
+  <h2>Not Just What We Build.<br><em>How We Make People Feel.</em></h2>
+  <p>Quality in every detail. Warmth in every experience.</p>
+</section>
+
+<section class="contact section" id="contact">
+  <p class="gold-text">03 — GET IN TOUCH</p>
+  <h2>Let's Create <em>Something Lasting.</em></h2>
+  <p class="section-intro">Have a question or business enquiry? Send us a message.</p>
+
+  <form id="contactForm">
+    <label for="name">Your Name</label>
+    <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+    <label for="email">Email Address</label>
+    <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+    <label for="interest">Business Interest</label>
+    <select id="interest" name="interest">
+      <option>General Enquiry</option>
+      <option>Clothing</option>
+      <option>Chai Shop</option>
+      <option>Travel</option>
+      <option>Business Collaboration</option>
+    </select>
+
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+    <button type="submit" class="btn">Send Enquiry ↗</button>
+    <p id="formMessage" class="form-message"></p>
+  </form>
+</section>
+
+<footer>
+  <div class="logo footer-logo">
+    <span>AAA</span>
+    <div>TRIPLE A <small>LEGACY</small></div>
+  </div>
+  <p>More Than A Name. A Legacy That Lasts.</p>
+  <p class="copyright">© <span id="year"></span> TRIPLE A LEGACY. All Rights Reserved.</p>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
